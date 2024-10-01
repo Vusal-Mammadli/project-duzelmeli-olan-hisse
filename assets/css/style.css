@@ -1,0 +1,160 @@
+:root{
+    ---Vusalin-sevdiyi-reng:#b5b5b5
+}
+
+body{
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+    height: 100vh;
+}
+
+nav a{
+    color: var(---Vusalin-sevdiyi-reng);
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-inline: 20px;
+}
+
+.signin{
+    background-color: transparent;
+    border: 1px solid  #F2994A;
+    color: #F2994A;
+    width: 112px;
+    height: 36px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 4px; 
+    letter-spacing: 2px;
+}
+
+.signup{
+    background-color: #F2994A;
+    border: 1px solid  #F2994A;
+    color: #f5f5f5;
+    width: 112px;
+    height: 36px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 4px; 
+    letter-spacing: 2px;
+    box-shadow: -11.09px 18.13px 36.65px 8px #f2994A21;
+}
+
+.header-right{
+    display: flex;
+    gap: 20px;
+}
+
+.fa-bars,.fa-xmark{
+    color: #F2994A;
+}
+
+
+
+@media(min-width:992px){
+    .header{
+        margin-top: 79px;
+    }
+}
+
+@media(max-width:390px){
+    .header-left nav{
+        display: flex;
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        margin-top: 30px;
+    }
+}
+
+.mobile-menu {
+    /*height: 200px;*/
+    background-color: #3B1D60;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    transition: width 1.5s ease;
+
+}
+
+.mobile-menu.aktiv{
+    width: 100%;
+}
+
+.fa-xmark{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 40px;
+
+}
+
+
+.mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    
+}
+
+
+
+/*Reason container starts from here*/
+
+.video{
+    background: #361C5D;
+    width:140px ;
+    height: 80px;
+}
+
+.reason-left-side h1{
+    color: #99EFD0;
+
+}
+
+.reason-left-side p{
+    color: #8476AA;
+    
+}
+
+.learn-more{
+    color: #fff;
+    background-color: #F2994A;
+    border-radius: 4px;
+    width: 157px;
+    height: 46px; 
+    margin-top: 20px ;
+    margin-inline-end: 10px;
+}
+
+.demo{
+    color: #F2994A;
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: #F2994A;
+    width: 157px;
+    height: 46px; 
+    margin-top: 20px ;
+}
+
+
+@media(min-width:992px){
+    .reason-right-side img{
+        position: relative;
+        right: -5%;
+    }
+   
+    .reason-left-side{
+        margin-top: 50%;
+    }
+}
+
+
+

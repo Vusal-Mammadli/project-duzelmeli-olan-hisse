@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CDNJS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"rel="stylesheet"/>
+    <!--CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Mobile Menu-->
+
+    <div class="mobile-menu" id="mobile-menu">
+      
+      <i class="fa-solid fa-xmark"></i>
+
+      <nav class="mobile-nav-links">
+        <a href="">About</a>
+        <a href="">Gallery</a>
+        <a href="">Pricing</a>
+        <a href="">FAQ</a>
+        <a href="">Benefits</a>
+      </nav>
+    </div>
+
+    
+    <header class="header">
+      <div class="container d-flex justify-content-between">
+        <div class="header-left d-flex align-items-center gap-4">
+          <img src="./assets/images/header/logo.svg" alt="" />
+          <i class="fa-solid fa-bars"></i>
+
+          <nav class="nav-links">
+            <a href="">About</a>
+            <a href="">Gallery</a>
+            <a href="">Pricing</a>
+            <a href="">FAQ</a>
+            <a href="">Benefits</a>
+          </nav>
+        </div>
+
+        <div class="header-right">
+          <button class="signin">Sign In</button>
+          <button class="signup">Sign Up</button>
+        </div>
+        
+      </div>
+    </header>
+
+    <section class="reason-section pt-5" text-white>
+        <div class="container">
+          <div class="row">
+            <div class="reason-left-side col-12 col-md-6 py-2">
+              <h1>Many reasons to get up and start to get back in the business </h1>
+              <p>The harder you work for something, the greater you'll feel when you achieve it.</p>
+
+              <div class="reasons-buttons ">
+                <button class="learn-more">Learn more</button>
+                <button class="demo">Demo</button>
+              </div>
+
+              <div class="preview d-flex mt-5 ">
+                <div class="video d-flex justify-content-center align-items-center rounded-1">
+                    <img src="./assets/images/reason/video.svg" alt="">
+                </div>
+
+                <div class="video-paragraph ms-2 text-white ">
+                  <article>The harder you work for something, the greater you'll feel when you achieve it.</article>
+                  <a href="">Watch preview</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="reason-right-side col-12 col-md-6">
+              <img src="./assets/images/reason/human.svg" alt="" class="w-100">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    
+    <!--Swipper starts-->
+    <div class="swiper container companiesSwiper ">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./assets/images/companies/company-1.svg" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/images/companies/company-2.svg" alt="" ></div>
+        <div class="swiper-slide"><img src="./assets/images/companies/company-3.svg" alt="" ></div>
+        <div class="swiper-slide"><img src="./assets/images/companies/company-4.svg" alt="" ></div>
+        <div class="swiper-slide"><img src="./assets/images/companies/company-5.svg" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/images/companies/company-6.svg" alt="" ></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  
+   
+    
+
+    
+    
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
